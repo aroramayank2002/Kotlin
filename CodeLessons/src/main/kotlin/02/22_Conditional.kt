@@ -5,4 +5,5 @@ fun main(){
 
     println(max(99, -42))
     println(max(1, 2))
+
 }

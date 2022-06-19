@@ -1,0 +1,16 @@
+package `03_special_classes`
+
+enum class State {
+    IDLE, RUNNING, FINISHED                           // 1
+}
+
+fun main() {
+    val state = State.RUNNING                         // 2
+    println(state)
+    val message = when (state) {                      // 3
+        State.IDLE -> "It's idle"
+        State.RUNNING -> "It's running"
+        State.FINISHED -> "It's finished"
+    }
+    println(message)
+}

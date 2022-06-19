@@ -1,3 +1,4 @@
+
 More than java, similar to python
 println() or print()      To print on console
 readLine()      To get user data
@@ -12,3 +13,5 @@ main function can have 0 arguments
 no return type required for methods
 operators can be overridden with keyword operator as in Python.
 Kotlin uses == for structural comparison and === for referential comparison.
+
+
